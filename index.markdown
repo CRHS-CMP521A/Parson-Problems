@@ -5,9 +5,53 @@
 layout: default
 title: Multiple Parson's Problems on One Page
 ---
+
 # Parsons Practice
 
+## New Problem (Find Max)
+
+<div id="Find_Max-sortableTrash" class="sortable-code"></div> 
+<div id="Find_Max-sortable" class="sortable-code"></div> 
+<div style="clear:both;"></div> 
+<p> 
+    <input id="Find_Max-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Find_Max-newInstanceLink" value="Reset Problem" type="button" /> 
+</p> 
+<script type="text/javascript"> 
+(function(){
+  var initial = "#Goal:  Find maximum of user’s integers. Stop with 0.\n" +
+    "num = int(input()) #get first input\n" +
+    "maxNum = 0\n" +
+    "while num != 0:\n" +
+    "    if num &gt; maxNum: #if user enters number great max\n" +
+    "        maxNum = num\n" +
+    "    num = int(input()) #get next input\n" +
+    "print(maxNum)";
+  var parsonsPuzzle = new ParsonsWidget({
+    "sortableId": "Find_Max-sortable",
+    "max_wrong_lines": 10,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
+    "exec_limit": 2500,
+    "can_indent": true,
+    "x_indent": 50,
+    "lang": "en",
+    "show_feedback": true
+  });
+  parsonsPuzzle.init(initial);
+  parsonsPuzzle.shuffleLines();
+  $("#Find_Max-newInstanceLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.shuffleLines(); 
+  }); 
+  $("#Find_Max-feedbackLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.getFeedback(); 
+  }); 
+})(); 
+</script>
+
 ## Parsons 1 (Line Based Grader)
+
 Re-arrange the blocks below so they print out "Hello World!"
 
 <div id="p1-sortableTrash" class="sortable-code"></div>
@@ -46,8 +90,8 @@ Re-arrange the blocks below so they print out "Hello World!"
 })();
 </script>
 
-
 ## Parsons 2 (Variable Check Grader)
+
 Construct a program that swaps the values of variables <code>x</code> and <code>y</code> using the helper variable <code>tmp</code>. You can change the names of the variables (<span class="jsparson-toggle"></span>) by clicking them.
 
 <div id="p2-sortableTrash" class="sortable-code"></div>
@@ -100,6 +144,7 @@ Construct a program that swaps the values of variables <code>x</code> and <code>
 </script>
 
 ## Parsons 3 (Unit Test Grader)
+
 Your task is to construct a function which returns the index of the largest element in the array.
 
 <div id="p3-sortableTrash" class="sortable-code"></div>
@@ -144,6 +189,7 @@ Your task is to construct a function which returns the index of the largest elem
 </script>
 
 ## Parsons 4 (Language Translation Grader)
+
 Print out "I am a Java program" three times using a for loop.
 
 <div id="p4-sortableTrash" class="sortable-code"></div>
@@ -194,8 +240,8 @@ Print out "I am a Java program" three times using a for loop.
 })();
 </script>
 
-
 ## Parsons 5 (Turtle Grader)
+
 Construct a program by dragging&amp;dropping and reordering lines. The constructed program should draw a triangle like shown below.
 
 <div id="p5-sortableTrash" class="sortable-code"></div>
@@ -244,4 +290,5 @@ When you host multiple Parson's problems on a single markdown page, you need to 
 If want each problem to be it's own page, you can use relative path links at the bottom of each of your markdown pages as seen below. If you want students to be able to return to previous problems in this format, consider adding previous links or link to a table of contents like page.
 
 ### Example Next Link
+
 [Next](./parsons/example1.html)

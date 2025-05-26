@@ -6,8 +6,9 @@ layout: default
 title: Parson's Problems for CMP521A
 ---
 
-# Parsons Problems
+# Parsons Problems Links
 
+[P1.Lists](./parsons/P1_Loops.md)
 [P2.Lists](./parsons/P2_Lists.md)
 
 

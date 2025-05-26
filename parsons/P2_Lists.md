@@ -5,6 +5,13 @@ title: Parsons Problems [P2 Lists]
 
 # P2 Lists
 
+## Table of Contents
+
+- [Lists - Creating a Sorted List of Colours](#lists---creating-a-sorted-list-of-colours)
+- [Lists - Printing Numbers Which are Even](#lists---printing-numbers-which-are-even)
+- [Lists - Printing part of a Water Depth List](#lists---printing-part-of-a-water-depth-list)
+
+
 ## Lists - Creating a Sorted List of Colours
 
 <div id="Lists -  Creating a Sorted List of Colours-sortableTrash" class="sortable-code"></div> 

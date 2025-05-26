@@ -4,6 +4,7 @@ title: Parsons Problems [P1 Loops]
 ---
 
 # P1 Loops
+[Main Page](/Parson-Problems.html)
 
 ## Table of Contents
 
@@ -270,4 +271,4 @@ Goal: Get user inputs and determine the average.
 })(); 
 </script>
 
-[Main Page](/index.html)
+

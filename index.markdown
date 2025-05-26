@@ -10,6 +10,8 @@ title: Parson's Problems for CMP521A
 
 [sample](./parsons/example1.html)
 
+[sample2](./parsons/example2.html)
+
 [P1.Lists](./parsons/P1_Loops.html)
 
 [P2.Lists](./parsons/P2_Lists.html)

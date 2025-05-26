@@ -5,7 +5,7 @@ title: Parsons Problems [P2 Lists]
 
 # P2 Lists
 
-[Main Page](/Parson-Problems.html)
+[Main Page](/Parson-Problems/index.html)
 
 ## Table of Contents
 
@@ -140,4 +140,3 @@ From Daily Water Level Data, print each day until level exceeds 2
   }); 
 })(); 
 </script>
-

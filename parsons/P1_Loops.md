@@ -4,7 +4,7 @@ title: Parsons Problems [P1 Loops]
 ---
 
 # P1 Loops
-[Main Page](/Parson-Problems.html)
+[Main Page](/Parson-Problems/index.html)
 
 ## Table of Contents
 

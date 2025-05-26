@@ -10,17 +10,17 @@ title: Parsons Problems [P2 Lists]
 ## Table of Contents
 
 - [Lists - Creating a Sorted List of Colours](#lists---creating-a-sorted-list-of-colours)
-- [Lists - Printing Numbers Which are Even](#lists---printing-numbers-which-are-even)
-- [Lists - Printing part of a Water Depth List](#lists---printing-part-of-a-water-depth-list)
+- [Lists_PrintingNumbersWhichAreEven](#lists---printing-numbers-which-are-even)
+- [Lists_PrintingPartOfAWaterDepth List](#lists---printing-part-of-a-water-depth-list)
 
 ## Lists - Creating a Sorted List of Colours
 
-<div id="Lists -  Creating a Sorted List of Colours-sortableTrash" class="sortable-code"></div> 
-<div id="Lists -  Creating a Sorted List of Colours-sortable" class="sortable-code"></div> 
+<div id="Lists_CreatingASortedListOfColours-sortableTrash" class="sortable-code"></div> 
+<div id="Lists_CreatingASortedListOfColours-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Lists -  Creating a Sorted List of Colours-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Lists -  Creating a Sorted List of Colours-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Lists_CreatingASortedListOfColours-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Lists_CreatingASortedListOfColours-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -33,7 +33,7 @@ title: Parsons Problems [P2 Lists]
     "for el in myList:\n" +
     "    print(el)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Lists -  Creating a Sorted List of Colours-sortable",
+    "sortableId": "Lists_CreatingASortedListOfColours-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -44,27 +44,27 @@ title: Parsons Problems [P2 Lists]
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Lists -  Creating a Sorted List of Colours-newInstanceLink").click(function(event){ 
+  $("#Lists_CreatingASortedListOfColours-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Lists -  Creating a Sorted List of Colours-feedbackLink").click(function(event){ 
+  $("#Lists_CreatingASortedListOfColours-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
 })(); 
 </script>
 
-## Lists - Printing Numbers Which are Even
+## Lists_PrintingNumbersWhichAreEven
 
 Collect User Numbers. Then output all the even ones.
 
-<div id="Lists - Printing Numbers Which are Even-sortableTrash" class="sortable-code"></div> 
-<div id="Lists - Printing Numbers Which are Even-sortable" class="sortable-code"></div> 
+<div id="Lists_PrintingNumbersWhichAreEven-sortableTrash" class="sortable-code"></div> 
+<div id="Lists_PrintingNumbersWhichAreEven-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Lists - Printing Numbers Which are Even-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Lists - Printing Numbers Which are Even-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Lists_PrintingNumbersWhichAreEven-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Lists_PrintingNumbersWhichAreEven-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -77,7 +77,7 @@ Collect User Numbers. Then output all the even ones.
     "    if num % 2 == 0:\n" +
     "        print(num)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Lists - Printing Numbers Which are Even-sortable",
+    "sortableId": "Lists_PrintingNumbersWhichAreEven-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -88,27 +88,27 @@ Collect User Numbers. Then output all the even ones.
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Lists - Printing Numbers Which are Even-newInstanceLink").click(function(event){ 
+  $("#Lists_PrintingNumbersWhichAreEven-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Lists - Printing Numbers Which are Even-feedbackLink").click(function(event){ 
+  $("#Lists_PrintingNumbersWhichAreEven-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
 })(); 
 </script>
 
-## Lists - Printing part of a Water Depth List
+## Lists_PrintingPartOfAWaterDepth List
 
 From Daily Water Level Data, print each day until level exceeds 2
 
-<div id="Lists - Printing part of a Water Depth List-sortableTrash" class="sortable-code"></div> 
-<div id="Lists - Printing part of a Water Depth List-sortable" class="sortable-code"></div> 
+<div id="Lists_PrintingPartOfAWaterDepth List-sortableTrash" class="sortable-code"></div> 
+<div id="Lists_PrintingPartOfAWaterDepth List-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Lists - Printing part of a Water Depth List-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Lists - Printing part of a Water Depth List-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Lists_PrintingPartOfAWaterDepth List-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Lists_PrintingPartOfAWaterDepth List-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -119,7 +119,7 @@ From Daily Water Level Data, print each day until level exceeds 2
     "        break\n" +
     "    print(i, curDepth)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Lists - Printing part of a Water Depth List-sortable",
+    "sortableId": "Lists_PrintingPartOfAWaterDepth List-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -130,11 +130,11 @@ From Daily Water Level Data, print each day until level exceeds 2
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Lists - Printing part of a Water Depth List-newInstanceLink").click(function(event){ 
+  $("#Lists_PrintingPartOfAWaterDepth List-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Lists - Printing part of a Water Depth List-feedbackLink").click(function(event){ 
+  $("#Lists_PrintingPartOfAWaterDepth List-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 

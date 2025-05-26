@@ -42,4 +42,4 @@ Construct a program that swaps the values of variables <code>x</code> and <code>
 })();
 </script>
 
-[Next](./example2.html)
+[Next](./example2.md)

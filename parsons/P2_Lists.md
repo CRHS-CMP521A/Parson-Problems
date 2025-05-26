@@ -10,8 +10,8 @@ title: Parsons Problems [P2 Lists]
 ## Table of Contents
 
 - [Lists - Creating a Sorted List of Colours](#lists---creating-a-sorted-list-of-colours)
-- [Lists_PrintingNumbersWhichAreEven](#lists---printing-numbers-which-are-even)
-- [Lists_PrintingPartOfAWaterDepth List](#lists---printing-part-of-a-water-depth-list)
+- [Lists - Printing Numbers Which Are Even](#lists---printing-numbers-which-are-even)
+- [Lists - Printing Part Of A Water Depth List](#lists---printing-part-of-a-water-depth-list)
 
 ## Lists - Creating a Sorted List of Colours
 
@@ -55,7 +55,7 @@ title: Parsons Problems [P2 Lists]
 })(); 
 </script>
 
-## Lists_PrintingNumbersWhichAreEven
+## Lists - Printing Numbers Which Are Even
 
 Collect User Numbers. Then output all the even ones.
 
@@ -99,16 +99,16 @@ Collect User Numbers. Then output all the even ones.
 })(); 
 </script>
 
-## Lists_PrintingPartOfAWaterDepth List
+## Lists - Printing Part Of A Water Depth List
 
 From Daily Water Level Data, print each day until level exceeds 2
 
-<div id="Lists_PrintingPartOfAWaterDepth List-sortableTrash" class="sortable-code"></div> 
-<div id="Lists_PrintingPartOfAWaterDepth List-sortable" class="sortable-code"></div> 
+<div id="Lists_PrintingPartOfAWaterDepthList-sortableTrash" class="sortable-code"></div> 
+<div id="Lists_PrintingPartOfAWaterDepthList-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Lists_PrintingPartOfAWaterDepth List-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Lists_PrintingPartOfAWaterDepth List-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Lists_PrintingPartOfAWaterDepthList-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Lists_PrintingPartOfAWaterDepthList-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -130,11 +130,11 @@ From Daily Water Level Data, print each day until level exceeds 2
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Lists_PrintingPartOfAWaterDepth List-newInstanceLink").click(function(event){ 
+  $("#Lists_PrintingPartOfAWaterDepthList-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Lists_PrintingPartOfAWaterDepth List-feedbackLink").click(function(event){ 
+  $("#Lists_PrintingPartOfAWaterDepthList-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 

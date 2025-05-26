@@ -7,15 +7,14 @@ title: Parsons Problems [P1 Loops]
 [Main Page](/Parson-Problems/index.html)
 
 ## Table of Contents
+- [Length Of Sequence](#loops---length-of-sequence)
+- [Sum Of Sequence](#loops---sum-of-sequence)
+- [List Of Squares](#loops---list-of-squares)
+- [Number Of Even Elements](#loops---number-of-even-elements)
+- [Maximum Of Sequence](#loops---maximum-of-sequence)
+- [Average Of A Sequence](#loops---average-of-a-sequence)
 
-- [Loops_LengthOfSequence](#loops---length-of-sequence)
-- [Loops_SumOfSequence](#loops---sum-of-sequence)
-- [Loops_ListOfSquares](#loops---list-of-squares)
-- [Loops_NumberOfEvenElements](#loops---number-of-even-elements)
-- [Loops - Maximum of a Sequence](#loops---maximum-of-a-sequence)
-- [Loops_AverageOfASequence](#loops---average-of-a-sequence)
-
-## Loops_LengthOfSequence
+## Loops - Length Of Sequence
 
 Goal: Count user integers. Stop with 0.
 
@@ -57,7 +56,7 @@ Goal: Count user integers. Stop with 0.
 })(); 
 </script>
 
-## Loops_SumOfSequence
+## Loops - Sum Of Sequence
 
 Goal: Sum user integers. Stop with 0.
 
@@ -99,7 +98,7 @@ Goal: Sum user integers. Stop with 0.
 })(); 
 </script>
 
-## Loops_ListOfSquares
+## Loops - List Of Squares
 
 Goal: print all squares up to and including N
 
@@ -140,7 +139,7 @@ Goal: print all squares up to and including N
 })(); 
 </script>
 
-## Loops_NumberOfEvenElements
+## Loops - Number Of Even Elements
 
 Goal: Count number of even inputs. Stop with 0.
 
@@ -183,7 +182,7 @@ Goal: Count number of even inputs. Stop with 0.
 })(); 
 </script>
 
-## Loops - Maximum of a Sequence
+## Loops - Maximum Of Sequence
 
 Goal: Find maximum of user’s integers. Stop with 0.
 
@@ -226,7 +225,7 @@ Goal: Find maximum of user’s integers. Stop with 0.
 })(); 
 </script>
 
-## Loops_AverageOfASequence
+## Loops - Average Of A Sequence
 
 Goal: Get user inputs and determine the average.
 

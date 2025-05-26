@@ -8,8 +8,8 @@ title: Parson's Problems for CMP521A
 
 # Parsons Problems Links
 
-[P1.Lists](./parsons/P1_Loops.md)
-[P2.Lists](./parsons/P2_Lists.md)
+[P1.Lists](./parsons/P1_Loops.html)
+[P2.Lists](./parsons/P2_Lists.html)
 
 
 ## Parsons Problem Example (Hello World)

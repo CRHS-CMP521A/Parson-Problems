@@ -7,10 +7,10 @@ title: Parson's Problems for CMP521A
 ---
 
 # Parsons Problems Links
-
+<!-- 
 [sample](./parsons/example1.html)
 
-[sample2](./parsons/example2.html)
+[sample2](./parsons/example2.html) -->
 
 [P1.Lists](./parsons/P1_Loops.html)
 

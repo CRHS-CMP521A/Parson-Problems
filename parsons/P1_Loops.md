@@ -14,10 +14,9 @@ title: Parsons Problems [P1 Loops]
 - [Loops - Maximum of a Sequence](#loops---maximum-of-a-sequence)
 - [Loops - Average of a Sequence](#loops---average-of-a-sequence)
 
+## Loops - Length of Sequence
 
-## Loops - Length of Sequence 
-
-Goal:  Count user integers. Stop with 0.
+Goal: Count user integers. Stop with 0.
 
 <div id="Loops - Length of Sequence-sortableTrash" class="sortable-code"></div> 
 <div id="Loops - Length of Sequence-sortable" class="sortable-code"></div> 
@@ -57,10 +56,9 @@ Goal:  Count user integers. Stop with 0.
 })(); 
 </script>
 
-
 ## Loops - Sum of Sequence
 
-Goal:  Sum user integers. Stop with 0.
+Goal: Sum user integers. Stop with 0.
 
 <div id="Loops - Sum of Sequence-sortableTrash" class="sortable-code"></div> 
 <div id="Loops - Sum of Sequence-sortable" class="sortable-code"></div> 
@@ -143,7 +141,7 @@ Goal: print all squares up to and including N
 
 ## Loops - Number of Even Elements
 
-Goal:  Count number of even inputs. Stop with 0.
+Goal: Count number of even inputs. Stop with 0.
 
 <div id="Loops - Number of Even Elements-sortableTrash" class="sortable-code"></div> 
 <div id="Loops - Number of Even Elements-sortable" class="sortable-code"></div> 
@@ -186,7 +184,7 @@ Goal:  Count number of even inputs. Stop with 0.
 
 ## Loops - Maximum of a Sequence
 
-Goal:  Find maximum of user’s integers. Stop with 0.
+Goal: Find maximum of user’s integers. Stop with 0.
 
 <div id="Loops - Maximum of Sequence-sortableTrash" class="sortable-code"></div> 
 <div id="Loops - Maximum of Sequence-sortable" class="sortable-code"></div> 
@@ -272,4 +270,4 @@ Goal: Get user inputs and determine the average.
 })(); 
 </script>
 
-[Main Page](/index.markdown)
+[Main Page](/index.html)

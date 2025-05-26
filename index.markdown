@@ -8,10 +8,11 @@ title: Parson's Problems for CMP521A
 
 # Parsons Problems Links
 
+[sample](./parsons/example1.html)
+
 [P1.Lists](./parsons/P1_Loops.html)
 
 [P2.Lists](./parsons/P2_Lists.html)
-
 
 ## Parsons Problem Example (Hello World)
 
@@ -52,4 +53,3 @@ Re-arrange the blocks below so they print out "Hello World!"
   });
 })();
 </script>
-

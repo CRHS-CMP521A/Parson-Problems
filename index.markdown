@@ -12,9 +12,11 @@ title: Parson's Problems for CMP521A
 
 [sample2](./parsons/example2.html) -->
 
-[P1.Loops](./parsons/P1_Loops.html)
+Select a link to visit the Parson Problems for Each Chapter
 
-[P2.Lists](./parsons/P2_Lists.html)
+- [P1.Loops](./parsons/P1_Loops.html)
+
+- [P2.Lists](./parsons/P2_Lists.html)
 
 ## Parsons Problem Example (Hello World)
 

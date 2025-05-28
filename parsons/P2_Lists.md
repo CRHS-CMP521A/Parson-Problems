@@ -129,7 +129,6 @@ From Daily Water Level Data, print each day until level exceeds 2.
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true
-    "trashId": "Lists_PrintingPartOfAWaterDepthList-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

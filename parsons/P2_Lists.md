@@ -15,6 +15,8 @@ title: Parsons Problems [P2 Lists]
 
 ## Lists - Creating a Sorted List of Colours
 
+Get the user to input colours and store this in a list. Print out the sorted colours, one colour per line.
+
 <div id="Lists_CreatingASortedListOfColours-sortableTrash" class="sortable-code"></div> 
 <div id="Lists_CreatingASortedListOfColours-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -101,7 +103,7 @@ Collect User Numbers. Then output all the even ones.
 
 ## Lists - Printing Part Of A Water Depth List
 
-From Daily Water Level Data, print each day until level exceeds 2
+From Daily Water Level Data, print each day until level exceeds 2.
 
 <div id="Lists_PrintingPartOfAWaterDepthList-sortableTrash" class="sortable-code"></div> 
 <div id="Lists_PrintingPartOfAWaterDepthList-sortable" class="sortable-code"></div> 
@@ -119,7 +121,7 @@ From Daily Water Level Data, print each day until level exceeds 2
     "        break\n" +
     "    print(i, curDepth)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Lists_PrintingPartOfAWaterDepth List-sortable",
+    "sortableId": "Lists_PrintingPartOfAWaterDepthList-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,

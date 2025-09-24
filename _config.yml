@@ -26,7 +26,7 @@ description: # >- # this means to ignore newlines until "baseurl:"
 
   To check your work, press the "Get Feedback" button.
   To start over, press the "Reset Problem" button.
-baseurl: "/hosting-parsons-on-github-template" # the subpath of your site, e.g. /blog
+baseurl: "/Parson-Problems" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
@@ -35,7 +35,7 @@ github_username:
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
-
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

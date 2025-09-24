@@ -7,7 +7,8 @@ title: Parson's Problems for CMP521A
 ---
 
 # Parsons Problems Links
-<!-- 
+
+<!--
 [sample](./parsons/example1.html)
 
 [sample2](./parsons/example2.html) -->
@@ -15,6 +16,8 @@ title: Parson's Problems for CMP521A
 Select a link to visit the Parson Problems for Each Chapter
 
 - [P1.Loops](./parsons/P1_Loops.html)
+
+- [P1_L5B.For_Loops](./parsons/P1_L5B_For_Loops.md)
 
 - [P2.Lists](./parsons/P2_Lists.html)
 

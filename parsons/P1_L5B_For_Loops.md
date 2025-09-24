@@ -18,7 +18,7 @@ title: Parsons Problems [P1_L5B For Loops]
 
 ## Loops - For Range Function
 
-Goal: Count user integers. Stop with 0.
+Goal: Given two integers A and B (A ≤ B). Print all numbers from A to B inclusively.
 
 <div id="Loops_For_Range_Function-sortableTrash" class="sortable-code"></div> 
 <div id="Loops_For_Range_Function-sortable" class="sortable-code"></div> 
@@ -58,27 +58,29 @@ Goal: Count user integers. Stop with 0.
 })(); 
 </script>
 
-## Loops - Sum Of Sequence
+## Loops - For Range and If
 
-Goal: Sum user integers. Stop with 0.
+Goal: Given two integers A and B. Print all numbers from A to B inclusively, in increasing order, if A < B, or in decreasing order, if A ≥ B.
 
-<div id="Loops_SumOfSequence-sortableTrash" class="sortable-code"></div> 
-<div id="Loops_SumOfSequence-sortable" class="sortable-code"></div> 
+<div id="Loops_ForRangeAndIf-sortableTrash" class="sortable-code"></div> 
+<div id="Loops_ForRangeAndIf-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Loops_SumOfSequence-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Loops_SumOfSequence-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Loops_ForRangeAndIf-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Loops_ForRangeAndIf-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "num = int(input(“First number? 0 to stop.”)) #get first input\n" +
-    "sum = 0\n" +
-    "while num != 0:\n" +
-    "  sum = sum + num\n" +
-    "  num = int(input(“Next number? 0 to stop.”)) #get next input\n" +
-    "print(sum)";
+  var initial = "start = int(input('Start: '))\n" +
+    "stop = int(input('Stop: '))\n" +
+    "if start < stop: #go up\n" +
+    "    nums = range(start, stop+1)\n" +
+    "else: #go down\n" +
+    "    nums = range(start, stop-1, -1 )\n" +
+    "for i in nums:\n" +
+    "    print(i)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Loops_SumOfSequence-sortable",
+    "sortableId": "Loops_ForRangeAndIf-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -89,11 +91,11 @@ Goal: Sum user integers. Stop with 0.
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Loops_SumOfSequence-newInstanceLink").click(function(event){ 
+  $("#Loops_ForRangeAndIf-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Loops_SumOfSequence-feedbackLink").click(function(event){ 
+  $("#Loops_ForRangeAndIf-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 

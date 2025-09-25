@@ -9,12 +9,12 @@ title: Parsons Problems [P1_L5B For Loops]
 
 ## Table of Contents
 
-- [Length Of Sequence](#loops---length-of-sequence)
-- [Sum Of Sequence](#loops---sum-of-sequence)
-- [List Of Squares](#loops---list-of-squares)
-- [Number Of Even Elements](#loops---number-of-even-elements)
-- [Maximum Of Sequence](#loops---maximum-of-sequence)
-- [Average Of A Sequence](#loops---average-of-a-sequence)
+- [For Range Function](#loops---for-range-function)
+- [For Range and If](#loops---for-range-and-if)
+- [Sum Numbers from Input](#loops---sum-numbers-from-input)
+- [Sum N Numbers from Input](#loops---sum-n-numbers-from-input)
+- [Count Number of Zeros](#loops---for-count-number-of-zeros)
+- [Sum of Cubes](#loops---for-sum-of-cubes)
 
 ## Loops - For Range Function
 

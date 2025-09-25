@@ -102,26 +102,30 @@ Goal: Given two integers A and B. Print all numbers from A to B inclusively, in 
 })(); 
 </script>
 
-## Loops - List Of Squares
+## Loops - Sum Numbers from Input
 
-Goal: print all squares up to and including N
+Goal: 10 numbers are given in the input. Read them and print their sum.
 
-<div id="Loops_ListOfSquares-sortableTrash" class="sortable-code"></div> 
-<div id="Loops_ListOfSquares-sortable" class="sortable-code"></div> 
+<div id="Loops-For-Sum-Numbers-From-Input-sortableTrash" class="sortable-code"></div> 
+<div id="Loops-For-Sum-Numbers-From-Input-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Loops_ListOfSquares-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Loops_ListOfSquares-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Loops-For-Sum-Numbers-From-Input-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Loops-For-Sum-Numbers-From-Input-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "N = int(input()) \n" +
-    "num = 1\n" +
-    "while num**2 &lt;= N:\n" +
-    "    print(num**2)\n" +
-    "    num += 1";
+  var initial = "total = 0
+\n" +
+    "for i in range(10): #repeat 10 times
+\n" +
+    "    num = int(input(&quot;Number: &quot;))
+\n" +
+    "    total = total + num
+\n" +
+    "print(&quot;Total: &quot; + str(total))";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Loops_ListOfSquares-sortable",
+    "sortableId": "Loops-For-Sum-Numbers-From-Input-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -132,39 +136,45 @@ Goal: print all squares up to and including N
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Loops_ListOfSquares-newInstanceLink").click(function(event){ 
+  $("#Loops-For-Sum-Numbers-From-Input-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Loops_ListOfSquares-feedbackLink").click(function(event){ 
+  $("#Loops-For-Sum-Numbers-From-Input-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
 })(); 
 </script>
 
-## Loops - Number Of Even Elements
+## Loops - Sum N Numbers from Input
 
-Goal: Count number of even inputs. Stop with 0.
+Goal: N numbers are given in the input. Read them and print their sum.
 
-<div id="Loops_NumberOfEvenElements-sortableTrash" class="sortable-code"></div> 
-<div id="Loops_NumberOfEvenElements-sortable" class="sortable-code"></div> 
+The first line of input contains the integer N, which is the number of integers to follow. Each of the next N lines contains one integer. Print the sum of these N integers.
+
+<div id="Loops-For-Sum-N-Numbers-From-Input-sortableTrash" class="sortable-code"></div> 
+<div id="Loops-For-Sum-N-Numbers-From-Input-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Loops_NumberOfEvenElements-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Loops_NumberOfEvenElements-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Loops-For-Sum-N-Numbers-From-Input-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Loops-For-Sum-N-Numbers-From-Input-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "num = int(input(“First number? 0 to stop.”)) #get first input\n" +
-    "countEven = 0\n" +
-    "while num != 0:\n" +
-    "    if num % 2 == 0: #number is even\n" +
-    "        countEven +=1\n" +
-    "    num = int(input(“Next number? 0 to stop.”)) #get next input\n" +
-    "print(countEven)";
+  var initial = "N = int(input(&quot;How many numbers? &quot;))
+\n" +
+    "total = 0
+\n" +
+    "for i in range(N): #repeat N times
+\n" +
+    "    num = int(input(&quot;Number: &quot;))
+\n" +
+    "    total = total + num
+\n" +
+    "print(&quot;Total: &quot; + str(total))";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Loops_NumberOfEvenElements-sortable",
+    "sortableId": "Loops-For-Sum-N-Numbers-From-Input-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -175,84 +185,41 @@ Goal: Count number of even inputs. Stop with 0.
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Loops_NumberOfEvenElements-newInstanceLink").click(function(event){ 
+  $("#Loops-For-Sum-N-Numbers-From-Input-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Loops_NumberOfEvenElements-feedbackLink").click(function(event){ 
+  $("#Loops-For-Sum-N-Numbers-From-Input-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
 })(); 
 </script>
 
-## Loops - Maximum Of Sequence
+## Loops - For Count Number of Zeros
 
-Goal: Find maximum of user’s integers. Stop with 0.
+Goal: Given N numbers: the first number in the input is N, after that N integers are given. Count the number of zeros among the given integers and print it.
+You need to count the number of numbers that are equal to zero, not the number of zero digits.
 
-<div id="Loops_MaximumOfSequence-sortableTrash" class="sortable-code"></div> 
-<div id="Loops_MaximumOfSequence-sortable" class="sortable-code"></div> 
+<div id="Loops-For-Count-Number-of-Zeros-sortableTrash" class="sortable-code"></div> 
+<div id="Loops-For-Count-Number-of-Zeros-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Loops_MaximumOfSequence-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Loops_MaximumOfSequence-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Loops-For-Count-Number-of-Zeros-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Loops-For-Count-Number-of-Zeros-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "num = int(input(“First number? 0 to stop.”)) #get first input\n" +
-    "maxNum = 0\n" +
-    "while num != 0:\n" +
-    "    if num &gt; maxNum: #if user enters number great max\n" +
-    "        maxNum = num\n" +
-    "    num = int(input(“Next number? 0 to stop.”)) #get next input\n" +
-    "print(maxNum)";
-  var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Loops_MaximumOfSequence-sortable",
-    "max_wrong_lines": 10,
-    "grader": ParsonsWidget._graders.LineBasedGrader,
-    "exec_limit": 2500,
-    "can_indent": true,
-    "x_indent": 50,
-    "lang": "en",
-    "show_feedback": true
-  });
-  parsonsPuzzle.init(initial);
-  parsonsPuzzle.shuffleLines();
-  $("#Loops_MaximumOfSequence-newInstanceLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.shuffleLines(); 
-  }); 
-  $("#Loops_MaximumOfSequence-feedbackLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.getFeedback(); 
-  }); 
-})(); 
-</script>
-
-## Loops - Average Of A Sequence
-
-Goal: Get user inputs and determine the average.
-
-<div id="Loops_AverageOfASequence-sortableTrash" class="sortable-code"></div> 
-<div id="Loops_AverageOfASequence-sortable" class="sortable-code"></div> 
-<div style="clear:both;"></div> 
-<p> 
-    <input id="Loops_AverageOfASequence-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Loops_AverageOfASequence-newInstanceLink" value="Reset Problem" type="button" /> 
-</p> 
-<script type="text/javascript"> 
-(function(){
-  var initial = "num = int(input(“First number? 0 to stop.”)) #get first input\n" +
+  var initial = "N = int(input(&quot;How many numbers? &quot;))\n" +
     "count = 0\n" +
-    "sum = 0\n" +
-    "while num != 0:\n" +
-    "    count += 1\n" +
-    "    sum = sum + num\n" +
-    "        num = int(input(“Next number? 0 to stop.”)) #get next input\n" +
-    "average = sum / count\n" +
-    "print(average)";
+    "for i in range(N):\n" +
+    "    num = int(input(&quot;Number: &quot;))\n" +
+    "    if num == 0:\n" +
+    "        count += 0\n" +
+    "\n" +
+    "print(&quot;There were &quot; + str(count) + &quot; ZEROES.&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Loops_AverageOfASequence-sortable",
+    "sortableId": "Loops-For-Count-Number-of-Zeros-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -263,11 +230,59 @@ Goal: Get user inputs and determine the average.
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Loops_AverageOfASequence-newInstanceLink").click(function(event){ 
+  $("#Loops-For-Count-Number-of-Zeros-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Loops_AverageOfASequence-feedbackLink").click(function(event){ 
+  $("#Loops-For-Count-Number-of-Zeros-feedbackLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.getFeedback(); 
+  }); 
+})(); 
+</script>
+
+## Loops - For Sum of Cubes
+
+Goal: For the given integer N calculate the following sum:
+1³ + 2³ + ... + N³
+
+<div id="Loops-For-Sum-Of-Cubes-sortableTrash" class="sortable-code"></div> 
+<div id="Loops-For-Sum-Of-Cubes-sortable" class="sortable-code"></div> 
+<div style="clear:both;"></div> 
+<p> 
+    <input id="Loops-For-Sum-Of-Cubes-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Loops-For-Sum-Of-Cubes-newInstanceLink" value="Reset Problem" type="button" /> 
+</p> 
+<script type="text/javascript"> 
+(function(){
+  var initial = "N = int(input())
+\n" +
+    "total = 0
+\n" +
+    "for x in range(1, N+1):
+\n" +
+    "    total = total + x**3
+\n" +
+    "
+\n" +
+    "print(total)";
+  var parsonsPuzzle = new ParsonsWidget({
+    "sortableId": "Loops-For-Sum-Of-Cubes-sortable",
+    "max_wrong_lines": 10,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
+    "exec_limit": 2500,
+    "can_indent": true,
+    "x_indent": 50,
+    "lang": "en",
+    "show_feedback": true
+  });
+  parsonsPuzzle.init(initial);
+  parsonsPuzzle.shuffleLines();
+  $("#Loops-For-Sum-Of-Cubes-newInstanceLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.shuffleLines(); 
+  }); 
+  $("#Loops-For-Sum-Of-Cubes-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 

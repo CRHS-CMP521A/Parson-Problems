@@ -106,12 +106,12 @@ Goal: Given two integers A and B. Print all numbers from A to B inclusively, in 
 
 Goal: 10 numbers are given in the input. Read them and print their sum.
 
-<div id="Loops-For-Sum-Numbers-From-Input-sortableTrash" class="sortable-code"></div> 
-<div id="Loops-For-Sum-Numbers-From-Input-sortable" class="sortable-code"></div> 
+<div id="Loops_For_Sum_Numbers_From_Input-sortableTrash" class="sortable-code"></div> 
+<div id="Loops_For_Sum_Numbers_From_Input-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Loops-For-Sum-Numbers-From-Input-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Loops-For-Sum-Numbers-From-Input-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Loops_For_Sum_Numbers_From_Input-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Loops_For_Sum_Numbers_From_Input-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -125,7 +125,7 @@ Goal: 10 numbers are given in the input. Read them and print their sum.
 \n" +
     "print(&quot;Total: &quot; + str(total))";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Loops-For-Sum-Numbers-From-Input-sortable",
+    "sortableId": "Loops_For_Sum_Numbers_From_Input-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -136,11 +136,11 @@ Goal: 10 numbers are given in the input. Read them and print their sum.
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Loops-For-Sum-Numbers-From-Input-newInstanceLink").click(function(event){ 
+  $("#Loops_For_Sum_Numbers_From_Input-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Loops-For-Sum-Numbers-From-Input-feedbackLink").click(function(event){ 
+  $("#Loops_For_Sum_Numbers_From_Input-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
@@ -153,12 +153,12 @@ Goal: N numbers are given in the input. Read them and print their sum.
 
 The first line of input contains the integer N, which is the number of integers to follow. Each of the next N lines contains one integer. Print the sum of these N integers.
 
-<div id="Loops-For-Sum-N-Numbers-From-Input-sortableTrash" class="sortable-code"></div> 
-<div id="Loops-For-Sum-N-Numbers-From-Input-sortable" class="sortable-code"></div> 
+<div id="Loops_For_Sum_N_Numbers_From_Input-sortableTrash" class="sortable-code"></div> 
+<div id="Loops_For_Sum_N_Numbers_From_Input-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Loops-For-Sum-N-Numbers-From-Input-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Loops-For-Sum-N-Numbers-From-Input-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Loops_For_Sum_N_Numbers_From_Input-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Loops_For_Sum_N_Numbers_From_Input-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -174,7 +174,7 @@ The first line of input contains the integer N, which is the number of integers 
 \n" +
     "print(&quot;Total: &quot; + str(total))";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Loops-For-Sum-N-Numbers-From-Input-sortable",
+    "sortableId": "Loops_For_Sum_N_Numbers_From_Input-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -185,11 +185,11 @@ The first line of input contains the integer N, which is the number of integers 
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Loops-For-Sum-N-Numbers-From-Input-newInstanceLink").click(function(event){ 
+  $("#Loops_For_Sum_N_Numbers_From_Input-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Loops-For-Sum-N-Numbers-From-Input-feedbackLink").click(function(event){ 
+  $("#Loops_For_Sum_N_Numbers_From_Input-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
@@ -201,7 +201,7 @@ The first line of input contains the integer N, which is the number of integers 
 Goal: Given N numbers: the first number in the input is N, after that N integers are given. Count the number of zeros among the given integers and print it.
 You need to count the number of numbers that are equal to zero, not the number of zero digits.
 
-<div id="Loops-For-Count-Number-of-Zeros-sortableTrash" class="sortable-code"></div> 
+<div id="Loops_For-Count-Number-of-Zeros-sortableTrash" class="sortable-code"></div> 
 <div id="Loops-For-Count-Number-of-Zeros-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 

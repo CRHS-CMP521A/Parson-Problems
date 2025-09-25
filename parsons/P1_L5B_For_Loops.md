@@ -201,12 +201,12 @@ The first line of input contains the integer N, which is the number of integers 
 Goal: Given N numbers: the first number in the input is N, after that N integers are given. Count the number of zeros among the given integers and print it.
 You need to count the number of numbers that are equal to zero, not the number of zero digits.
 
-<div id="Loops_For-Count-Number-of-Zeros-sortableTrash" class="sortable-code"></div> 
-<div id="Loops-For-Count-Number-of-Zeros-sortable" class="sortable-code"></div> 
+<div id="Loops_For_Count_Number_of_Zeros-sortableTrash" class="sortable-code"></div> 
+<div id="Loops_For_Count_Number_of_Zeros-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Loops-For-Count-Number-of-Zeros-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Loops-For-Count-Number-of-Zeros-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Loops_For_Count_Number_of_Zeros-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Loops_For_Count_Number_of_Zeros-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -219,7 +219,7 @@ You need to count the number of numbers that are equal to zero, not the number o
     "\n" +
     "print(&quot;There were &quot; + str(count) + &quot; ZEROES.&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Loops-For-Count-Number-of-Zeros-sortable",
+    "sortableId": "Loops_For_Count_Number_of_Zeros-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -230,11 +230,11 @@ You need to count the number of numbers that are equal to zero, not the number o
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Loops-For-Count-Number-of-Zeros-newInstanceLink").click(function(event){ 
+  $("#Loops_For_Count_Number_of_Zeros-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Loops-For-Count-Number-of-Zeros-feedbackLink").click(function(event){ 
+  $("#Loops_For_Count_Number_of_Zeros-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
@@ -246,12 +246,12 @@ You need to count the number of numbers that are equal to zero, not the number o
 Goal: For the given integer N calculate the following sum:
 1³ + 2³ + ... + N³
 
-<div id="Loops-For-Sum-Of-Cubes-sortableTrash" class="sortable-code"></div> 
-<div id="Loops-For-Sum-Of-Cubes-sortable" class="sortable-code"></div> 
+<div id="Loops_For_Sum_Of_Cubes-sortableTrash" class="sortable-code"></div> 
+<div id="Loops_For_Sum_Of_Cubes-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Loops-For-Sum-Of-Cubes-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Loops-For-Sum-Of-Cubes-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Loops_For_Sum_Of_Cubes-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Loops_For_Sum_Of_Cubes-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -267,7 +267,7 @@ Goal: For the given integer N calculate the following sum:
 \n" +
     "print(total)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Loops-For-Sum-Of-Cubes-sortable",
+    "sortableId": "Loops_For_Sum_Of_Cubes-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -278,11 +278,11 @@ Goal: For the given integer N calculate the following sum:
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Loops-For-Sum-Of-Cubes-newInstanceLink").click(function(event){ 
+  $("#Loops_For_Sum_Of_Cubes-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Loops-For-Sum-Of-Cubes-feedbackLink").click(function(event){ 
+  $("#Loops_For_Sum_Of_Cubes-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 

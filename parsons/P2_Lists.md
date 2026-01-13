@@ -7,7 +7,7 @@ title: Parsons Problems [P2 Lists]
 
 [Main Page](/Parson-Problems/index.html)
 
-## Table of Contents
+## Table of Content
 
 - [Lists - Creating a Sorted List of Colours](#lists---creating-a-sorted-list-of-colours)
 - [Lists - Printing Numbers Which Are Even](#lists---printing-numbers-which-are-even)

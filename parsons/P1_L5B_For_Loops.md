@@ -9,12 +9,14 @@ title: Parsons Problems [P1_L5B For Loops]
 
 ## Table of Contents
 
-- [For Range Function](#loops---for-range-function)
-- [For Range and If](#loops---for-range-and-if)
-- [Sum Numbers from Input](#loops---sum-numbers-from-input)
-- [Sum N Numbers from Input](#loops---sum-n-numbers-from-input)
-- [Count Number of Zeros](#loops---for-count-number-of-zeros)
-- [Sum of Cubes](#loops---for-sum-of-cubes)
+- [P1 Loops](#p1-loops)
+  - [Table of Contents](#table-of-contents)
+  - [Loops - For Range Function](#loops---for-range-function)
+  - [Loops - For Range and If](#loops---for-range-and-if)
+  - [Loops - Sum Numbers from Input](#loops---sum-numbers-from-input)
+  - [Loops - Sum N Numbers from Input](#loops---sum-n-numbers-from-input)
+  - [Loops - For Count Number of Zeros](#loops---for-count-number-of-zeros)
+  - [Loops - For Sum of Cubes](#loops---for-sum-of-cubes)
 
 ## Loops - For Range Function
 
@@ -115,14 +117,10 @@ Goal: 10 numbers are given in the input. Read them and print their sum.
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "total = 0
-\n" +
-    "for i in range(10): #repeat 10 times
-\n" +
-    "    num = int(input(&quot;Number: &quot;))
-\n" +
-    "    total = total + num
-\n" +
+  var initial = "total = 0\n" +
+    "for i in range(10): #repeat 10 times\n" +
+    "    num = int(input(&quot;Number: &quot;))\n" +
+    "    total = total + num\n" +
     "print(&quot;Total: &quot; + str(total))";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "Loops_For_Sum_Numbers_From_Input-sortable",
@@ -162,16 +160,11 @@ The first line of input contains the integer N, which is the number of integers 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "N = int(input(&quot;How many numbers? &quot;))
-\n" +
-    "total = 0
-\n" +
-    "for i in range(N): #repeat N times
-\n" +
-    "    num = int(input(&quot;Number: &quot;))
-\n" +
-    "    total = total + num
-\n" +
+  var initial = "N = int(input(&quot;How many numbers? &quot;))\n" +
+    "total = 0\n" +
+    "for i in range(N): #repeat N times\n" +
+    "    num = int(input(&quot;Number: &quot;))\n" +
+    "    total = total + num\n" +
     "print(&quot;Total: &quot; + str(total))";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "Loops_For_Sum_N_Numbers_From_Input-sortable",
@@ -215,7 +208,7 @@ You need to count the number of numbers that are equal to zero, not the number o
     "for i in range(N):\n" +
     "    num = int(input(&quot;Number: &quot;))\n" +
     "    if num == 0:\n" +
-    "        count += 0\n" +
+    "        count += 1\n" +
     "\n" +
     "print(&quot;There were &quot; + str(count) + &quot; ZEROES.&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
@@ -255,16 +248,11 @@ Goal: For the given integer N calculate the following sum:
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "N = int(input())
-\n" +
-    "total = 0
-\n" +
-    "for x in range(1, N+1):
-\n" +
-    "    total = total + x**3
-\n" +
-    "
-\n" +
+  var initial = "N = int(input())\n" +
+    "total = 0\n" +
+    "for x in range(1, N+1):\n" +
+    "    total = total + x**3\n" +
+    "\n" +
     "print(total)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "Loops-For-Sum-Of-Cubes-sortable",

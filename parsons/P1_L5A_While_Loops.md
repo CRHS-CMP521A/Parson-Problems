@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Parsons Problems [P1 Loops]
+title: Parsons Problems [P1_L5A While Loops]
 ---
 
 # P1 Loops
@@ -8,12 +8,14 @@ title: Parsons Problems [P1 Loops]
 [Main Page](/Parson-Problems/index.html)
 
 ## Table of Contents
-- [Length Of Sequence](#loops---length-of-sequence)
-- [Sum Of Sequence](#loops---sum-of-sequence)
-- [List Of Squares](#loops---list-of-squares)
-- [Number Of Even Elements](#loops---number-of-even-elements)
-- [Maximum Of Sequence](#loops---maximum-of-sequence)
-- [Average Of A Sequence](#loops---average-of-a-sequence)
+- [P1 Loops](#p1-loops)
+  - [Table of Contents](#table-of-contents)
+  - [Loops - Length Of Sequence](#loops---length-of-sequence)
+  - [Loops - Sum Of Sequence](#loops---sum-of-sequence)
+  - [Loops - List Of Squares](#loops---list-of-squares)
+  - [Loops - Number Of Even Elements](#loops---number-of-even-elements)
+  - [Loops - Maximum Of Sequence](#loops---maximum-of-sequence)
+  - [Loops - Average Of A Sequence](#loops---average-of-a-sequence)
 
 ## Loops - Length Of Sequence
 
@@ -245,7 +247,7 @@ Goal: Get user inputs and determine the average.
     "while num != 0:\n" +
     "    count += 1\n" +
     "    sum = sum + num\n" +
-    "        num = int(input(“Next number? 0 to stop.”)) #get next input\n" +
+    "    num = int(input(“Next number? 0 to stop.”)) #get next input\n" +
     "average = sum / count\n" +
     "print(average)";
   var parsonsPuzzle = new ParsonsWidget({
